@@ -3,7 +3,7 @@
 namespace parkingwebb1.Data.Entities
 {
     public class Country
-    {
+    { 
             public int Id { get; set; }
 
             [Display(Name = "Instalaciones")]

@@ -3,7 +3,7 @@ using parkingwebb1.Data.Entities;
 
 namespace parkingwebb1.Data
 {
-    public class DataContext : DbContext
+    public class DataContext : DbContext 
     {
         public DataContext(DbContextOptions<DbContext> options) : base(options)
         {
